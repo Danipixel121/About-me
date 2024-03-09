@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    background-color: black;
+  }
+  
+  @keyframes changeColor {
+    0% { color: rgb(255, 255, 255); }
+    100% { color: rgb(0, 255, 221); }
+  }
+  
+  .animated-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border: 2px solid;
+    padding: 20px;
+    z-index: 4;
+    font-size: 80px;
+    width: 90%;
+    max-height: 100px;
+    animation: changeColor 5s infinite;
+  }
+  
+.par {
+    color: rgb(255, 255, 255);
+    background-color: rgb(53, 52, 52);
+    padding: 20px;
+    border-radius: 15px;
+    font-size:20px;
+    width: 50%;
+    margin-top: 5px;
+}
+  
